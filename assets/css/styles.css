@@ -323,7 +323,8 @@ a {
 .project-card img {
   width: 100%;
   max-height: 360px;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--bg);
   border-radius: 16px;
   border: 1px solid var(--border);
 }
