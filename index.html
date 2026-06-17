@@ -1,52 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome!</title>
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joshua Jones | Software Engineer Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
-    <header id="pageHeader">
-        <h1 id="name">Joshua Jones</h1>
-    </header>
-    <article id="mainArticle">
-        <div id="thePhoto"><img id="myPhoto" src="imgs/homePhoto.jpg" alt="A picture of me"></div>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="logo" href="index.html">Joshua Jones</a>
+      <ul class="nav-links">
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/education.html">Education</a></li>
+        <li><a href="pages/employment.html">Employment</a></li>
+        <li><a href="pages/projects.html">Projects</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-content">
+        <p class="eyebrow">Recent Computer Science Graduate</p>
+        <h1>Software engineering graduate building practical full-stack applications.</h1>
         <p>
-            Hello, my name is Joshua Jones—welcome to my personal website! I am a recent college graduate with aspirations
-            of becoming a software engineer. I studied at Aurora University from 2022 to 2025, where I gained valuable
-            skills, including using HTML and CSS to create and publish this site on GitHub. In addition to my formal
-            education, I have taken the initiative to explore technologies and topics beyond the classroom. Feel free to
-            explore the links to learn more about me!
+          Hello, my name is Joshua Jones. I am a recent Aurora University graduate focused on full-stack development,
+          backend API design, database integration, and cross-platform application development.
         </p>
 
-    </article>
-    <nav id="mainNav">
-        <ul>
-            <li><a href="aboutMe.html">About Me</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="employment.html">Employment</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <div id="personalSkills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>JDBC</li>
-            <li>C++</li>
-            <li>C#</li>
-            <li>SQL</li>
-            <li>.NET Framework</li>
-            <li>JavaScript</li>
-            <li>HTML & CSS</li>
-            <li>React.js</li>
-            <li>React Native</li>
-            <li>Node.js</li>
-        </ul>
-    </div>
-    <footer id="pageFooter">Updated as of 6/27/25 </footer>
-    </body>
+        <div class="button-row">
+          <a class="btn primary-btn" href="pages/projects.html">View Projects</a>
+          <a class="btn secondary-btn" href="pages/contact.html">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="assets/imgs/homePhoto.jpg" alt="Portrait of Joshua Jones" />
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Project</p>
+        <h2>Job Application Tracker</h2>
+      </div>
+
+      <div class="card featured-card">
+        <p>
+          A full-stack job application tracking platform that helps users manage job applications, interviews, and
+          hiring progress in one centralized system.
+        </p>
+        <p>
+          The application uses a React Native and Expo frontend, a custom Express.js REST API, MySQL for relational data
+          storage, and JWT authentication for protected routes.
+        </p>
+
+        <div class="tag-list">
+          <span>React Native</span>
+          <span>Expo</span>
+          <span>Node.js</span>
+          <span>Express.js</span>
+          <span>MySQL</span>
+          <span>JWT Auth</span>
+          <span>React Query</span>
+        </div>
+
+        <a class="text-link" href="pages/projects.html">Read more about this project →</a>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">Technical Skills</p>
+        <h2>Tools and technologies I have worked with</h2>
+      </div>
+
+      <div class="skills-grid">
+        <span>JavaScript</span>
+        <span>React Native</span>
+        <span>Expo</span>
+        <span>React.js</span>
+        <span>Node.js</span>
+        <span>Express.js</span>
+        <span>MySQL</span>
+        <span>JWT Authentication</span>
+        <span>REST APIs</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Python</span>
+        <span>Java</span>
+        <span>C#</span>
+        <span>.NET Framework</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Joshua Jones. Built with HTML and CSS.</p>
+  </footer>
+</body>
 </html>
