@@ -215,6 +215,27 @@ a {
   margin-top: 0.75rem;
 }
 
+.project-card h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--green);
+  font-size: 1.05rem;
+}
+
+.project-list {
+  color: var(--muted);
+  margin-top: 0.75rem;
+  padding-left: 1.2rem;
+}
+
+.project-list li {
+  margin-bottom: 0.5rem;
+}
+
+.project-list li::marker {
+  color: var(--green);
+}
+
 .featured-card {
   max-width: 850px;
 }
