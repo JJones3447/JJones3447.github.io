@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Joshua Jones</title>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="logo" href="../index.html">Joshua Jones</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="employment.html">Employment</a></li>
+        <li><a class="active" href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main class="container page-layout">
+    <section class="page-hero">
+      <p class="eyebrow">Projects</p>
+      <h1>Applications I have built to strengthen and demonstrate my software engineering skills.</h1>
+    </section>
+
+    <section class="projects-grid">
+      <article class="card project-card highlight-card">
+        <div>
+          <p class="eyebrow">Featured Full-Stack Project</p>
+          <h2>Job Application Tracker</h2>
+          <p>
+            Job Application Tracker is a full-stack platform built to help users organize job applications, manage
+            interviews, and track hiring progress from one centralized system.
+          </p>
+          <p>
+            I built this project from scratch to strengthen my full-stack software engineering skills while creating a
+            practical tool I could use during my own job search.
+          </p>
+        </div>
+
+        <div>
+          <h3>Technical Highlights</h3>
+          <ul class="project-list">
+            <li>Built a React Native and Expo frontend with cross-platform support for web and mobile.</li>
+            <li>Designed a custom Express.js REST API with protected routes and centralized validation middleware.</li>
+            <li>Used MySQL to model users, job applications, and interviews with relational data ownership.</li>
+            <li>Implemented JWT authentication, bcrypt password hashing, and user-specific authorization.</li>
+            <li>Managed server state, caching, and mutations with TanStack React Query.</li>
+            <li>Created reusable form, UI, theme, and validation patterns across the frontend.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Key Features</h3>
+          <ul class="project-list">
+            <li>User registration and login with JWT-based authentication.</li>
+            <li>Create, edit, delete, search, and filter job applications.</li>
+            <li>Create, edit, and delete interviews associated with specific jobs.</li>
+            <li>Weekly interview calendar dashboard for upcoming interviews.</li>
+            <li>Client-side and server-side validation for cleaner data handling.</li>
+            <li>Responsive UI styling designed for both phone and web layouts.</li>
+          </ul>
+        </div>
+
+        <div class="tag-list">
+          <span>JavaScript</span>
+          <span>React Native</span>
+          <span>Expo</span>
+          <span>Node.js</span>
+          <span>Express.js</span>
+          <span>MySQL</span>
+          <span>JWT</span>
+          <span>bcrypt</span>
+          <span>React Query</span>
+          <span>Axios</span>
+        </div>
+
+        <a
+          class="text-link"
+          href="https://github.com/JJones3447/job-application-tracker"
+          target="_blank"
+          rel="noopener"
+        >
+          View GitHub repository →
+        </a>
+      </article>
+
+      <article class="card project-card">
+        <img src="../assets/imgs/capstoneSnippet.png" alt="Screenshot of capstone project" />
+
+        <div>
+          <p class="eyebrow">Capstone Project</p>
+          <h2>Student Productivity App</h2>
+          <p>
+            During my senior year at Aurora University, I worked with a team to design and build a full-stack mobile app
+            that helps students manage assignments, finances, and weekly schedules.
+          </p>
+          <p>
+            My primary contributions included developing much of the backend, implementing CRUD operations, managing
+            database interactions, and helping build front-end screens that displayed user-specific information.
+          </p>
+        </div>
+
+        <div class="tag-list">
+          <span>React Native</span>
+          <span>C#</span>
+          <span>.NET Framework</span>
+          <span>DynamoDB</span>
+        </div>
+
+        <a class="text-link" href="https://github.com/gthompson06/capstone-project" target="_blank" rel="noopener">
+          View GitHub repository →
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Joshua Jones. Built with HTML and CSS.</p>
+  </footer>
+</body>
+</html>
